@@ -1,0 +1,46 @@
+button {
+  margin: auto;
+  margin-left: 1%;
+}
+
+button:active {
+  background-color: aqua;
+}
+
+button:hover {
+  background: yellow;
+  transition: 0.5s;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-image: linear-gradient(red, yellow);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+div {
+  background-color: rgba(0, 0, 139, 0.164);
+  width: 50%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  position: relative;
+  top: 20%;
+  border: 1.5px solid black;
+  border-radius: 8px;
+}
+
+#input {
+  border-radius: 5px;
+}
+
+input:hover {
+  border: 3px solid yellow;
+}
